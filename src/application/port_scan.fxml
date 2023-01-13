@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="428.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controler">
+   <children>
+      <TextField fx:id="ip_feild" layoutX="65.0" layoutY="94.0" promptText="127.0.0.1" />
+      <Button fx:id="start" layoutX="126.0" layoutY="155.0" mnemonicParsing="false" onAction="#test" text="scan" />
+      <ListView fx:id="port_list" layoutX="50.0" layoutY="203.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label alignment="CENTER" layoutY="65.0" prefHeight="16.0" prefWidth="300.0" text="Port Scanner" />
+   </children>
+</AnchorPane>
